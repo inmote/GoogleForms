@@ -74,6 +74,10 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <None Include="files\csv\Digitale strategie.csv" />
+    <None Include="files\output\1-questionaire_xls.xlsx" />
+    <None Include="files\output\2-questionaire_xls.xlsx" />
+    <None Include="files\template\questionaire_xls.xlsx" />
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -88,5 +92,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
